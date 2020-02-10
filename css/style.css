@@ -91,3 +91,18 @@ section {
     font-family: 'Montserrat', sans-serif;
     font-weight: bold;
 }
+
+@media screen and (max-width: 500px) {
+    section {
+        margin-top: 0;
+    }
+    .gameTitle {
+        font-size: 2rem;
+    }
+    .midDiv {
+        grid-gap: 0px;
+        grid-template-columns: repeat(2, 1fr);
+        align-self: center;
+        margin: 0.5rem 0;
+    }
+}
